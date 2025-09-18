@@ -1,7 +1,9 @@
 #include<stdio.h>
 int main(){
-	int a,b;
-	scanf("%d%d" ,&a,&b);
-	printf("smallest =%d",(a<b)?a:b);
+	int n;
+	printf("enter a num:");
+	scanf("%d ,&n");
+	(n% 2==0)? printf("%d is even\n",n):
+	printf("%d is odd\n",n);
 	return 0;
 }
